@@ -4,4 +4,4 @@ steps:
       - "echo '--- :ruby: bundle install'"
       - bundle install --path vendor/bundle
       - "echo '--- :rspec: rspec'"
-      - rspec
+      - bundle exec rspec
